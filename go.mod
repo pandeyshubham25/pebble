@@ -2,9 +2,9 @@ module github.com/cockroachdb/pebble
 
 
 require (
-   github.com/cockroachdb/pebble latest v0.0.0-20220614144502-ef1ca573534d
+   github.com/cockroachdb/pebble v0.0.0-20220614144502-ef1ca573534d
 )
-//replace github.com/cockroachdb/pebble latest => github.com/pandeyshubham25/pebble latest
+replace github.com/cockroachdb/pebble v0.0.0-20220614144502-ef1ca573534d => github.com/pandeyshubham25/pebble v0.0.0-20220615150607-93dc29884c90
 
 require (
 	github.com/DataDog/zstd v1.4.5

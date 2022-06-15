@@ -1,6 +1,11 @@
 module github.com/cockroachdb/pebble
 
 require (
+    github.com/cockroachdb/pebble latest
+)
+replace github.com/cockroachdb/pebble latest => github.com/pandeyshubham25/pebble latest
+
+require (
 	github.com/DataDog/zstd v1.4.5
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2
 	github.com/cespare/xxhash/v2 v2.1.1
